@@ -2,11 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: black;
+}
+h6 a {
+  text-decoration: none;
+  color: black;
 }
 
-a {
-  font-weight: bolder;
-  color: black;
+#contact-section {
+  background-image: url(../img/background-img.png);
 }
 
 @media screen and (max-width: 426px) {
@@ -15,5 +19,11 @@ a {
   }
   .media-part {
     display: none !important;
+  }
+  .link-up {
+    display: none !important;
+  }
+  .crosson-logo {
+    margin-right: auto;
   }
 }
