@@ -12,6 +12,10 @@ h6 a {
 #contact-section {
   background-image: url(../img/background-img.png);
 }
+button {
+  border: none;
+  border-radius: 3px !important;
+}
 
 @media screen and (max-width: 426px) {
   .contact-part img, .contact-part .phone-no {
@@ -25,5 +29,14 @@ h6 a {
   }
   .crosson-logo {
     margin-right: auto;
+  }
+  .copy-right {
+    display: none;
+  }
+  .question-part {
+    display: none;
+  }
+  .p, h6 {
+    font-size: 10px !important;
   }
 }
