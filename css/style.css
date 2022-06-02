@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: bolder;
+  color: black;
+}
+
+@media screen and (max-width: 426px) {
+  .contact-part img, .contact-part .phone-no {
+    display: none !important;
+  }
+  .media-part {
+    display: none !important;
+  }
+}
